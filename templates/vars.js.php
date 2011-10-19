@@ -1,0 +1,4 @@
+if (!window.Vars) {
+    Vars = {
+    }
+}
