@@ -17,10 +17,6 @@ if(!window.APP) {
 
             // bootstrap the app
 
-            // start the energy countdown
-            if(Vars.energyDeficit > 0) {
-                APP.startEnergyTimer();
-            }
         },
         facebookReady : function() {
             FB.init({
