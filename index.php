@@ -19,17 +19,17 @@ R::debug(Cfg::instance()->debug_sql);
 /**
  * how home looks when you're either logged in or not logged in
  */
-F3::route('GET /', 'HomeRouteHandler->display');
+F3::route('GET|POST /', 'HomeRouteHandler->display');
 
 /**
  * test
  */
-F3::route('GET /test', 'TestRouteHandler->display');
+F3::route('GET|POST /test', 'TestRouteHandler->display');
 
 /**
- * test
+ * purge memcache
  */
-F3::route('GET /purgecache', 'PurgeCacheRouteHandler->display');
+F3::route('GET|POST /purgecache', 'PurgeCacheRouteHandler->display');
 
 /**
  * return the current time

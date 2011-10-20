@@ -1,5 +1,6 @@
 <html>
     <head>
+        <?php require "templates/head.php"; ?>
     </head>
     <body>
         <div>
